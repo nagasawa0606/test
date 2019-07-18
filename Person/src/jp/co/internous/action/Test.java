@@ -53,11 +53,20 @@ public class Test {
 		System.out.println(ng.phoneNumber);
 		System.out.println(ng.address);
 		
-		Person ai=new Person();
+		Robot ai=new Robot();
 		ai.name="aibo";
 		
-		System.out.println(ai.name);
 		ai.talk();
+		
+		Robot asi=new Robot();
+		asi.name="asimo";
+		
+		asi.walk();
+		
+		Robot pep=new Robot();
+		pep.name="pepper";
+		
+		pep.run();
 	}
 
 }
