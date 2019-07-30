@@ -1,0 +1,9 @@
+package com.internousdev.login.util;
+
+public class DBConnector {
+	private static String driveName = "com.mysql.jdbc.Driver";
+	private static tring url ="Jdbc:mysql://localhost/logindb_nagasawa";
+
+
+
+}
