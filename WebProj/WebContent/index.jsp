@@ -13,6 +13,10 @@
 
 		<s:form action="WelcomeAction">
 			<s:submit value="Welcome"/>
-			</s:form>
+		</s:form>
+
+		<s:form action="InquiryAction">
+		<s:submit value="Welcome"/>
+		</s:form>
 </body>
 </html>
