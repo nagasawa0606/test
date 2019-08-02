@@ -1,0 +1,31 @@
+drop database if exists testdb;
+create database testdb;
+use testdb;
+
+create table users(
+user_id int primary key auto_increment,
+user_name varchar(255),
+password varchar(255)
+);
+
+insert into users valuse(1,"taro","123");
+insert into users valuse(2,"jiro","456");
+insert into users valuse(3,"hanako","789");
+
+create table inpuiry(
+name varchar(255),
+qtype varchar(255),
+body varchar(255)
+);
+
+--------------------------------------------------------------------------
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    <%@ taglib prefix="s" uri="/struts-tags" %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title></title>
+--------------------------------------------------------------------------
