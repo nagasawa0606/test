@@ -10,19 +10,19 @@ public class DBConnector {
 	private static String driverName = "com.mysql.jdbc.Driver";
 
 	//DB CONNECT URL
-	private static String url ="jdbc:mysql://localhost.testdb33";
+	private static String url ="jdbc:mysql://localhost/testdb33";
 
 	//DB CONNECT USER NAME
 	private static String user="root";
 
 	//DB CONNECT PASSWORD
-	private static String passeord ="mysql";
+	private static String password ="mysql";
 
 	public Connection getConnection(){
 		Connection con =null;
 		try{
 			Class.forName(driverName);
-			con = DriverManager.getConnection(url,user,passeord);
+			con = DriverManager.getConnection(url,user,password);
 		}catch(ClassNotFoundException e){
 			e.printStackTrace();
 		}catch(SQLException e){
